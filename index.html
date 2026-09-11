@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О себе - Николай Осипенко</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0b132b;
+            color: #e0e6ed;
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 0 15px;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            color: #ffd166;
+        }
+
+        header, footer {
+            text-align: center;
+            border-bottom: 1px solid #ffd166;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            border-bottom: none;
+            border-top: 1px solid #ffd166;
+            margin-top: 30px;
+            padding-top: 10px;
+        }
+
+        aside {
+            background-color: #1c2541;
+            border-left: 4px solid #ffd166;
+            padding: 10px 15px;
+            margin: 20px 0;
+        }
+
+        form div {
+            margin-bottom: 10px;
+            align-items: center;
+        }
+
+        input, textarea, button {
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ffd166;
+            background-color: #1c2541;
+            color: #fff;
+            width: 100%;
+            max-width: 400px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #ffd166;
+            color: #0b132b;
+            font-weight: bold;
+            cursor: pointer;
+            width: auto;
+        }
+
+        .img {
+          border-radius: 25px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Николай Осипенко</h1>
+        <p>Персональная страница: Космический энтузиаст и астроном-любитель</p>
+    </header>
+
+    <div style="text-align: center;">
+        <img src="Nikolay_Osipenko.jpg" 
+             alt="Портрет Николая Осипенко" 
+             width="200" 
+             height="200"
+             class="img">
+    </div>
+
+    <main>
+        <section>
+            <h2>Мои космические навыки</h2>
+            <ul>
+                <li>Работа с любительским зеркальным телескопом системы Ньютона</li>
+                <li>Ориентирование по созвездиям и картам звёздного неба</li>
+                <li>Астрофотография и постобработка снимков глубокого космоса</li>
+                <li>3D-моделирование орбит и рельефа планет</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Вдохновляющие космические миссии</h2>
+            <ol>
+                <li><strong>«Джеймс Уэбб» </strong> - исследование самых ранних галактик Вселенной.</li>
+                <li><strong>«Вояджер-1»</strong> - первый рукотворный аппарат, вышедший в межзвёздное пространство.</li>
+                <li><strong>Марсоход «Персеверанс»</strong> - поиск следов древней жизни на Красной планете.</li>
+                <li><strong>«Артемида»</strong> - программа по возвращению человека на Луну.</li>
+            </ol>
+        </section>
+
+        <aside>
+            <h3>Любимое созвездие: Орион</h3>
+            <p>Орион - самое красивое созвездие зимнего неба. Больше всего меня восхищает яркая звезда Бетельгейзе и знаменитая Большая туманность Ориона.</p>
+        </aside>
+
+        <section style="max-width: 400px; margin: 0 auto; text-align: center;">
+            <h2>Форма обратной связи</h2>
+            <form action="#" method="post">
+                <div>
+                    <input type="text" name="userName" placeholder="Ваше имя" required>
+                </div>
+                <div>
+                    <input type="email" name="userEmail" placeholder="Ваш Email" required>
+                </div>
+                <div>
+                    <textarea name="userMessage" rows="4" placeholder="Ваше сообщение или вопрос о космосе..." required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Отправить</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Николай Осипенко. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
